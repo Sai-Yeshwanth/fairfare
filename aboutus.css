@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+    
+}
+body{
+    background: #fcde67;
+}
+
+/* first nav-bar */
+.container .nav1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: #5bccf6;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    padding: 10px 0;
+}
+/* logo */
+.nav1 .logo{
+    padding-left: 15px;
+}
+.nav1 .logo img{
+    position: absolute;
+    height: 50px;
+    width: 120px;
+    padding-left: 60px;
+}
+.nav1 .logo h1{
+    padding-left: 340px;
+    font-weight: 700;
+    font-size: 40px;
+}
+/* a tags in links */
+.nav1 .links a{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    padding: 10px 20px;
+}
+.nav1 .links a:hover{
+    border-bottom: black 2px solid;
+    font-size: 24px;
+}
+
+.links .current{
+    background-color: rgba(61, 73, 128, 0.3);
+    border-radius: 5px;
+    font-weight: bolder;
+}
+/* nav2 */
+.nav2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px 20px 10px 0;
+    margin-top: 56px;
+    height: 60px;
+    background: #5bccf6;
+}
+.nav2 .search{
+    padding-right: 180px;
+}
+.nav2 .login{
+    padding-right: 230px;
+    margin-bottom: 0;
+}
+.nav2 .login a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+.nav2 .login a:hover{
+    border-bottom: black 2px solid;
+    font-size: 1.1em;
+}
+.links .current{
+    background-color: rgba(61, 73, 128, 0.3);
+    border-radius: 5px;
+    font-weight: bolder;
+}
+.nav2 .account{
+    padding-right:25px;
+}
+.nav2 .account a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+.nav2 .account a:hover{
+    border-bottom: black 2px solid;
+    font-size: 1.1em;
+}
+.nav2 .search input{
+    width: 400px;
+    padding: 6px;
+}
+
+.side{
+    position: absolute;
+    padding: 0px 0 0 10px;
+}
